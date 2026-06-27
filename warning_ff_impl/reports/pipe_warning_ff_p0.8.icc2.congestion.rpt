@@ -1,0 +1,15 @@
+****************************************
+Report : congestion
+Design : pipe_warning
+Version: U-2022.12-SP5
+Date   : Sat Jun 27 22:18:36 2026
+****************************************
+
+Layer     |    overflow     |              # GRCs has
+Name      |  total  |  max  | overflow (%)      | max overflow
+---------------------------------------------------------------
+Both Dirs |       6 |     2 |       4  ( 0.35%) |       2
+H routing |       6 |     2 |       4  ( 0.69%) |       2
+V routing |       0 |     0 |       0  ( 0.00%) |       0
+
+1

@@ -1,0 +1,37 @@
+ 
+****************************************
+Report : area
+Design : pipe_warning
+Version: R-2020.09-SP5-5
+Date   : Sat Jun 27 22:18:52 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	u_mon/u_sr/U2/A1 u_mon/u_sr/U2/Y 
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'u_mon/u_sr/U2'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'u_mon/u_sr/U2'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    saed32rvt_ss0p75v125c (File: /home/VCSadmin/32-28nm_EDK_01312018/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db)
+
+Number of ports:                           53
+Number of nets:                           177
+Number of cells:                          129
+Number of combinational cells:             92
+Number of sequential cells:                32
+Number of macros/black boxes:               0
+Number of buf/inv:                         39
+Number of references:                      23
+
+Combinational area:                190.608002
+Buf/Inv area:                       53.624385
+Noncombinational area:             227.713028
+Macro/Black Box area:                0.000000
+Net Interconnect area:              63.070764
+
+Total cell area:                   418.321030
+Total area:                        481.391794
+1

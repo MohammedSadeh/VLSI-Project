@@ -1,0 +1,247 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 5
+        -report_by design
+Design : pipe_razor
+Version: U-2022.12-SP5
+Date   : Sat Jun 27 22:16:42 2026
+****************************************
+
+  Startpoint: rb_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/shadow_reg[5] (falling edge-triggered data to data check clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[3]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  rb_reg[3]/Q (DFFARX1_RVT)                        0.08      0.08 r
+  ctmTdsLR_5_287/Y (NOR2X0_RVT)                    0.04      0.13 f
+  ctmTdsLR_5_384/Y (OA21X1_RVT)                    0.03      0.16 f
+  ctmTdsLR_4_383/Y (INVX1_RVT)                     0.01      0.17 r
+  ctmTdsLR_1_807/Y (AO21X1_RVT)                    0.03      0.20 r
+  U10/CO (FADDX2_RVT)                              0.05      0.25 r
+  ctmTdsLR_1_298/Y (XOR3X2_RVT)                    0.03      0.28 r
+  u_mon/U9/Y (INVX1_RVT)                           0.01      0.29 f
+  u_mon/ctmTdsLR_1_733/Y (NAND2X0_RVT)             0.02      0.31 r
+  u_mon/shadow_reg[5]/SIN (LNANDX1_RVT)            0.00      0.31 r
+  data arrival time                                          0.31
+
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  rb_reg[5]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  clock uncertainty                               -0.04     -0.04
+  rb_reg[5]/CLK (DFFARX1_RVT)                      0.00     -0.04 r
+  rb_reg[5]/Q (DFFARX1_RVT)                        0.08      0.04 r
+  ctmTdsLR_1_298/Y (XOR3X2_RVT)                    0.07      0.11 r
+  u_mon/U17/Y (NAND2X0_RVT)                        0.02      0.12 f
+  u_mon/shadow_reg[5]/RIN (LNANDX1_RVT)            0.00      0.12 f
+  data check setup time                           -1.78     -1.66
+  data required time                                        -1.66
+  ------------------------------------------------------------------------
+  data required time                                        -1.66
+  data arrival time                                         -0.31
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -1.97
+
+
+
+  Startpoint: rb_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/shadow_reg[6] (falling edge-triggered data to data check clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[3]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  rb_reg[3]/Q (DFFARX1_RVT)                        0.08      0.08 r
+  ctmTdsLR_5_287/Y (NOR2X0_RVT)                    0.04      0.13 f
+  ctmTdsLR_5_384/Y (OA21X1_RVT)                    0.03      0.16 f
+  ctmTdsLR_4_383/Y (INVX1_RVT)                     0.01      0.17 r
+  ctmTdsLR_1_807/Y (AO21X1_RVT)                    0.03      0.20 r
+  U10/CO (FADDX2_RVT)                              0.05      0.25 r
+  ctmTdsLR_12_427/Y (MUX21X1_RVT)                  0.04      0.29 r
+  ctmTdsLR_1_416/Y (OR2X2_RVT)                     0.03      0.32 r
+  u_mon/ctmTdsLR_1_819/Y (INVX1_RVT)               0.01      0.33 f
+  u_mon/ctmTdsLR_1_879/Y (NAND2X0_RVT)             0.02      0.35 r
+  u_mon/shadow_reg[6]/SIN (LNANDX1_RVT)            0.00      0.35 r
+  data arrival time                                          0.35
+
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  rb_reg[5]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  clock uncertainty                               -0.04     -0.04
+  rb_reg[5]/CLK (DFFARX1_RVT)                      0.00     -0.04 r
+  rb_reg[5]/Q (DFFARX1_RVT)                        0.08      0.04 r
+  ctmTdsLR_8_305/Y (INVX1_RVT)                     0.02      0.06 f
+  ctmTdsLR_3_921/Y (OR3X1_RVT)                     0.03      0.09 f
+  ctmTdsLR_1_919/Y (NAND2X0_RVT)                   0.02      0.11 r
+  ctmTdsLR_1_416/Y (OR2X2_RVT)                     0.03      0.14 r
+  u_mon/U16/Y (NAND2X0_RVT)                        0.02      0.15 f
+  u_mon/shadow_reg[6]/RIN (LNANDX1_RVT)            0.00      0.15 f
+  data check setup time                           -1.77     -1.62
+  data required time                                        -1.62
+  ------------------------------------------------------------------------
+  data required time                                        -1.62
+  data arrival time                                         -0.35
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -1.96
+
+
+
+  Startpoint: rb_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/shadow_reg[5] (falling edge-triggered data to data check clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[3]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  rb_reg[3]/Q (DFFARX1_RVT)                        0.08      0.08 r
+  ctmTdsLR_5_287/Y (NOR2X0_RVT)                    0.04      0.13 f
+  ctmTdsLR_5_384/Y (OA21X1_RVT)                    0.03      0.16 f
+  ctmTdsLR_4_383/Y (INVX1_RVT)                     0.01      0.17 r
+  ctmTdsLR_1_807/Y (AO21X1_RVT)                    0.03      0.20 r
+  U10/CO (FADDX2_RVT)                              0.05      0.25 r
+  ctmTdsLR_1_298/Y (XOR3X2_RVT)                    0.04      0.29 f
+  u_mon/U17/Y (NAND2X0_RVT)                        0.02      0.31 r
+  u_mon/shadow_reg[5]/RIN (LNANDX1_RVT)            0.00      0.31 r
+  data arrival time                                          0.31
+
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  rb_reg[5]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  clock uncertainty                               -0.04     -0.04
+  rb_reg[5]/CLK (DFFARX1_RVT)                      0.00     -0.04 r
+  rb_reg[5]/Q (DFFARX1_RVT)                        0.08      0.04 r
+  ctmTdsLR_1_298/Y (XOR3X2_RVT)                    0.06      0.10 f
+  u_mon/U9/Y (INVX1_RVT)                           0.01      0.11 r
+  u_mon/ctmTdsLR_1_733/Y (NAND2X0_RVT)             0.01      0.12 f
+  u_mon/shadow_reg[5]/SIN (LNANDX1_RVT)            0.00      0.12 f
+  data check setup time                           -1.77     -1.65
+  data required time                                        -1.65
+  ------------------------------------------------------------------------
+  data required time                                        -1.65
+  data arrival time                                         -0.31
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -1.96
+
+
+
+  Startpoint: rb_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/shadow_reg[7] (falling edge-triggered data to data check clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[3]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  rb_reg[3]/Q (DFFARX1_RVT)                        0.08      0.08 r
+  ctmTdsLR_5_287/Y (NOR2X0_RVT)                    0.04      0.13 f
+  ctmTdsLR_5_384/Y (OA21X1_RVT)                    0.03      0.16 f
+  ctmTdsLR_4_383/Y (INVX1_RVT)                     0.01      0.17 r
+  ctmTdsLR_1_807/Y (AO21X1_RVT)                    0.03      0.20 r
+  U10/CO (FADDX2_RVT)                              0.05      0.25 r
+  ctmTdsLR_9_410/Y (MUX21X1_RVT)                   0.04      0.29 r
+  ctmTdsLR_1_402/Y (OR2X2_RVT)                     0.03      0.32 r
+  u_mon/ctmTdsLR_1_739/Y (INVX1_RVT)               0.01      0.33 f
+  u_mon/ctmTdsLR_1_356/Y (NAND2X0_RVT)             0.02      0.35 r
+  u_mon/shadow_reg[7]/SIN (LNANDX1_RVT)            0.00      0.35 r
+  data arrival time                                          0.35
+
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  rb_reg[7]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  clock uncertainty                               -0.04     -0.04
+  rb_reg[7]/CLK (DFFARX1_RVT)                      0.00     -0.04 r
+  rb_reg[7]/Q (DFFARX1_RVT)                        0.08      0.04 r
+  ctmTdsLR_1_916/Y (OA21X1_RVT)                    0.03      0.08 r
+  ctmTdsLR_2_403/Y (MUX21X1_RVT)                   0.04      0.11 r
+  ctmTdsLR_1_402/Y (OR2X2_RVT)                     0.03      0.15 r
+  u_mon/U18/Y (NAND2X0_RVT)                        0.01      0.16 f
+  u_mon/shadow_reg[7]/RIN (LNANDX1_RVT)            0.00      0.16 f
+  data check setup time                           -1.77     -1.61
+  data required time                                        -1.61
+  ------------------------------------------------------------------------
+  data required time                                        -1.61
+  data arrival time                                         -0.35
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -1.96
+
+
+
+  Startpoint: rb_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/shadow_reg[7] (falling edge-triggered data to data check clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[3]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  rb_reg[3]/Q (DFFARX1_RVT)                        0.08      0.08 r
+  ctmTdsLR_5_287/Y (NOR2X0_RVT)                    0.04      0.13 f
+  ctmTdsLR_5_384/Y (OA21X1_RVT)                    0.03      0.16 f
+  ctmTdsLR_4_383/Y (INVX1_RVT)                     0.01      0.17 r
+  ctmTdsLR_1_807/Y (AO21X1_RVT)                    0.03      0.20 r
+  U10/CO (FADDX2_RVT)                              0.05      0.25 r
+  ctmTdsLR_9_410/Y (MUX21X1_RVT)                   0.05      0.30 f
+  ctmTdsLR_1_402/Y (OR2X2_RVT)                     0.03      0.32 f
+  u_mon/U18/Y (NAND2X0_RVT)                        0.02      0.34 r
+  u_mon/shadow_reg[7]/RIN (LNANDX1_RVT)            0.00      0.34 r
+  data arrival time                                          0.34
+
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+  ra_reg[7]/CLK (DFFARX1_RVT)                      0.00      0.00 r
+  clock uncertainty                               -0.04     -0.04
+  ra_reg[7]/CLK (DFFARX1_RVT)                      0.00     -0.04 r
+  ra_reg[7]/Q (DFFARX1_RVT)                        0.08      0.04 r
+  ctmTdsLR_2_917/Y (INVX1_RVT)                     0.01      0.05 f
+  ctmTdsLR_1_916/Y (OA21X1_RVT)                    0.03      0.08 f
+  ctmTdsLR_2_403/Y (MUX21X1_RVT)                   0.03      0.11 f
+  ctmTdsLR_1_402/Y (OR2X2_RVT)                     0.03      0.14 f
+  u_mon/ctmTdsLR_1_739/Y (INVX1_RVT)               0.01      0.15 r
+  u_mon/ctmTdsLR_1_356/Y (NAND2X0_RVT)             0.01      0.16 f
+  u_mon/shadow_reg[7]/SIN (LNANDX1_RVT)            0.00      0.16 f
+  data check setup time                           -1.77     -1.61
+  data required time                                        -1.61
+  ------------------------------------------------------------------------
+  data required time                                        -1.61
+  data arrival time                                         -0.34
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -1.95
+
+
+1

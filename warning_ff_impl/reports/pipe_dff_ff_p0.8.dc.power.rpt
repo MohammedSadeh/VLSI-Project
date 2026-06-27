@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : pipe_dff
+Version: R-2020.09-SP5-5
+Date   : Sat Jun 27 22:12:51 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ff0p95vn40c (File: /home/VCSadmin/32-28nm_EDK_01312018/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff0p95vn40c.db)
+
+
+Operating Conditions: ff0p95vn40c   Library: saed32rvt_ff0p95vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+pipe_dff               8000              saed32rvt_ff0p95vn40c
+dff_cell_W8            ForQA             saed32rvt_ff0p95vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 180.4314 uW   (97%)
+  Net Switching Power  =   4.7771 uW    (3%)
+                         ---------
+Total Dynamic Power    = 185.2086 uW  (100%)
+
+Cell Leakage Power     = 191.8348 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register         175.4613            1.8326        1.6716e+08          344.4532  (  91.36%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      4.9701            2.9445        2.4676e+07           32.5903  (   8.64%)
+--------------------------------------------------------------------------------------------------
+Total            180.4314 uW         4.7771 uW     1.9183e+08 pW       377.0434 uW
+1

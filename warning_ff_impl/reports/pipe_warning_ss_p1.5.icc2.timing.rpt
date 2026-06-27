@@ -1,0 +1,225 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 5
+        -report_by design
+Design : pipe_warning
+Version: U-2022.12-SP5
+Date   : Sat Jun 27 22:19:41 2026
+****************************************
+
+  Startpoint: rb_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/U6 (rising clock gating-check end-point clocked by clk')
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[7]/CLK (DFFASX1_RVT)                      0.00      0.00 r
+  rb_reg[7]/QN (DFFASX1_RVT)                       0.07      0.07 r
+  U60/Y (XNOR2X1_RVT)                              0.06      0.12 r
+  copt_h_inst_678/Y (NBUFFX2_RVT)                  0.02      0.15 r
+  copt_h_inst_677/Y (NBUFFX2_RVT)                  0.02      0.17 r
+  copt_h_inst_676/Y (NBUFFX2_RVT)                  0.02      0.19 r
+  ropt_h_inst_717/Y (NBUFFX2_RVT)                  0.03      0.22 r
+  ropt_h_inst_718/Y (NBUFFX2_RVT)                  0.02      0.24 r
+  ctmTdsLR_1_300/Y (AO221X2_RVT)                   0.06      0.30 r
+  ctmTdsLR_4_303/Y (OA222X2_RVT)                   0.05      0.35 r
+  u_mon/copt_h_inst_664/Y (NBUFFX2_RVT)            0.03      0.38 r
+  u_mon/copt_h_inst_666/Y (NBUFFX4_RVT)            0.02      0.40 r
+  u_mon/copt_h_inst_667/Y (NBUFFX4_RVT)            0.02      0.42 r
+  u_mon/copt_h_inst_665/Y (DELLN1X2_RVT)           0.09      0.51 r
+  u_mon/copt_gre_h_inst_707/Y (DELLN1X2_RVT)       0.09      0.60 r
+  u_mon/copt_h_inst_663/Y (DELLN2X2_RVT)           0.12      0.72 r
+  u_mon/U6/A4 (OA221X1_RVT)                        0.00      0.72 r
+  data arrival time                                          0.72
+
+  clock clk' (rise edge)                           0.75      0.75
+  clock network delay (propagated)                 0.05      0.80
+  u_mon/U6/A5 (OA221X1_RVT)                        0.00      0.80 r
+  clock uncertainty                               -0.08      0.72
+  library setup time                              -0.00      0.72
+  data required time                                         0.72
+  ------------------------------------------------------------------------
+  data required time                                         0.72
+  data arrival time                                         -0.72
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.00
+
+
+
+  Startpoint: rb_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/U6 (rising clock gating-check end-point clocked by clk')
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[7]/CLK (DFFASX1_RVT)                      0.00      0.00 r
+  rb_reg[7]/QN (DFFASX1_RVT)                       0.07      0.07 r
+  U60/Y (XNOR2X1_RVT)                              0.06      0.12 r
+  copt_h_inst_678/Y (NBUFFX2_RVT)                  0.02      0.15 r
+  copt_h_inst_677/Y (NBUFFX2_RVT)                  0.02      0.17 r
+  copt_h_inst_676/Y (NBUFFX2_RVT)                  0.02      0.19 r
+  ropt_h_inst_717/Y (NBUFFX2_RVT)                  0.03      0.22 r
+  ropt_h_inst_718/Y (NBUFFX2_RVT)                  0.02      0.24 r
+  ctmTdsLR_1_300/Y (AO221X2_RVT)                   0.06      0.30 r
+  ctmTdsLR_4_303/Y (OA222X2_RVT)                   0.05      0.35 r
+  u_mon/copt_h_inst_664/Y (NBUFFX2_RVT)            0.03      0.38 r
+  u_mon/copt_h_inst_666/Y (NBUFFX4_RVT)            0.02      0.40 r
+  u_mon/copt_h_inst_667/Y (NBUFFX4_RVT)            0.02      0.42 r
+  u_mon/copt_h_inst_665/Y (DELLN1X2_RVT)           0.09      0.51 r
+  u_mon/copt_gre_h_inst_707/Y (DELLN1X2_RVT)       0.09      0.60 r
+  u_mon/copt_h_inst_663/Y (DELLN2X2_RVT)           0.12      0.72 r
+  u_mon/U6/A3 (OA221X1_RVT)                        0.00      0.72 r
+  data arrival time                                          0.72
+
+  clock clk' (rise edge)                           0.75      0.75
+  clock network delay (propagated)                 0.05      0.80
+  u_mon/U6/A5 (OA221X1_RVT)                        0.00      0.80 r
+  clock uncertainty                               -0.08      0.72
+  library setup time                              -0.00      0.72
+  data required time                                         0.72
+  ------------------------------------------------------------------------
+  data required time                                         0.72
+  data arrival time                                         -0.72
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.00
+
+
+
+  Startpoint: rb_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/U5 (falling clock gating-check end-point clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[7]/CLK (DFFASX1_RVT)                      0.00      0.00 r
+  rb_reg[7]/QN (DFFASX1_RVT)                       0.07      0.07 r
+  U60/Y (XNOR2X1_RVT)                              0.06      0.12 r
+  copt_h_inst_678/Y (NBUFFX2_RVT)                  0.02      0.15 r
+  copt_h_inst_677/Y (NBUFFX2_RVT)                  0.02      0.17 r
+  copt_h_inst_676/Y (NBUFFX2_RVT)                  0.02      0.19 r
+  ropt_h_inst_717/Y (NBUFFX2_RVT)                  0.03      0.22 r
+  ropt_h_inst_718/Y (NBUFFX2_RVT)                  0.02      0.24 r
+  ctmTdsLR_1_300/Y (AO221X2_RVT)                   0.06      0.30 r
+  ctmTdsLR_4_303/Y (OA222X2_RVT)                   0.05      0.35 r
+  u_mon/copt_h_inst_664/Y (NBUFFX2_RVT)            0.03      0.38 r
+  u_mon/copt_h_inst_666/Y (NBUFFX4_RVT)            0.02      0.40 r
+  u_mon/copt_h_inst_667/Y (NBUFFX4_RVT)            0.02      0.42 r
+  u_mon/copt_h_inst_665/Y (DELLN1X2_RVT)           0.09      0.51 r
+  u_mon/U5/A2 (AOI21X1_RVT)                        0.00      0.51 r
+  data arrival time                                          0.51
+
+  clock clk (fall edge)                            0.75      0.75
+  clock network delay (propagated)                 0.02      0.77
+  u_mon/U5/A3 (AOI21X1_RVT)                        0.00      0.77 f
+  clock uncertainty                               -0.08      0.69
+  library setup time                              -0.00      0.69
+  data required time                                         0.69
+  ------------------------------------------------------------------------
+  data required time                                         0.69
+  data arrival time                                         -0.51
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.18
+
+
+
+  Startpoint: rb_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_mon/U5 (falling clock gating-check end-point clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.00      0.00
+
+  rb_reg[7]/CLK (DFFASX1_RVT)                      0.00      0.00 r
+  rb_reg[7]/QN (DFFASX1_RVT)                       0.07      0.07 r
+  U60/Y (XNOR2X1_RVT)                              0.06      0.12 r
+  copt_h_inst_678/Y (NBUFFX2_RVT)                  0.02      0.15 r
+  copt_h_inst_677/Y (NBUFFX2_RVT)                  0.02      0.17 r
+  copt_h_inst_676/Y (NBUFFX2_RVT)                  0.02      0.19 r
+  ropt_h_inst_717/Y (NBUFFX2_RVT)                  0.03      0.22 r
+  ropt_h_inst_718/Y (NBUFFX2_RVT)                  0.02      0.24 r
+  ctmTdsLR_1_300/Y (AO221X2_RVT)                   0.06      0.30 r
+  ctmTdsLR_4_303/Y (OA222X2_RVT)                   0.05      0.35 r
+  u_mon/copt_h_inst_664/Y (NBUFFX2_RVT)            0.03      0.38 r
+  u_mon/copt_h_inst_666/Y (NBUFFX4_RVT)            0.02      0.40 r
+  u_mon/copt_h_inst_667/Y (NBUFFX4_RVT)            0.02      0.42 r
+  u_mon/copt_h_inst_665/Y (DELLN1X2_RVT)           0.09      0.51 r
+  u_mon/U5/A1 (AOI21X1_RVT)                        0.00      0.51 r
+  data arrival time                                          0.51
+
+  clock clk (fall edge)                            0.75      0.75
+  clock network delay (propagated)                 0.02      0.77
+  u_mon/U5/A3 (AOI21X1_RVT)                        0.00      0.77 f
+  clock uncertainty                               -0.08      0.69
+  library setup time                              -0.00      0.69
+  data required time                                         0.69
+  ------------------------------------------------------------------------
+  data required time                                         0.69
+  data arrival time                                         -0.51
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.18
+
+
+
+  Startpoint: clk (input port clocked by clk)
+  Endpoint: warning (output port clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2out_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (fall edge)                            0.75      0.75
+  clock network delay (propagated)                 0.00      0.75
+
+  clk (in)                                         0.00      0.75 f
+  u_mon/clk_bip585/Y (NBUFFX2_RVT)                 0.02      0.77 f
+  u_mon/U5/Y (AOI21X1_RVT)                         0.03      0.80 r
+  u_mon/U6/Y (OA221X1_RVT)                         0.03      0.83 r
+  u_mon/u_sr/U2/Y (OA21X1_RVT)                     0.03      0.86 r
+  warning (out)                                    0.00      0.86 r
+  data arrival time                                          0.86
+
+  clock clk (rise edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  clock uncertainty                               -0.08      1.43
+  output external delay                           -0.30      1.13
+  data required time                                         1.13
+  ------------------------------------------------------------------------
+  data required time                                         1.13
+  data arrival time                                         -0.86
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.27
+
+
+1

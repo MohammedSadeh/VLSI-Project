@@ -1,0 +1,26 @@
+****************************************
+Report : report_utilization
+Design : pipe_warning
+Version: U-2022.12-SP5
+Date   : Sat Jun 27 22:19:41 2026
+****************************************
+Utilization Ratio:			0.9411
+Utilization options:
+ - Area calculation based on:		site_row of block pipe_warning
+ - Categories of objects excluded:	hard_macros macro_keepouts soft_macros io_cells hard_blockages 
+Total Area:				569.2826
+Total Capacity Area:			569.2826
+Total Area of cells:			535.7356
+Area of excluded objects:
+ - hard_macros         :		0.0000
+ - macro_keepouts      :		0.0000
+ - soft_macros         :		0.0000
+ - io_cells            :		0.0000
+ - hard_blockages      :		0.0000
+Total Area of excluded objects:		0.0000
+Ratio of excluded objects:		0.0000
+
+Utilization of site-rows with:
+ - Site 'unit':				0.9411
+
+0.9411

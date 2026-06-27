@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : qor
+Design : pipe_razor
+Version: R-2020.09-SP5-5
+Date   : Sat Jun 27 22:15:44 2026
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:               3.00
+  Critical Path Length:          0.17
+  Critical Path Slack:          -0.74
+  Critical Path Clk Period:      0.80
+  Total Negative Slack:         -0.74
+  No. of Violating Paths:        1.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'clk_del'
+  -----------------------------------
+  Levels of Logic:               5.00
+  Critical Path Length:          0.47
+  Critical Path Slack:          -0.09
+  Critical Path Clk Period:      0.80
+  Total Negative Slack:         -0.09
+  No. of Violating Paths:        1.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          1
+  Hierarchical Port Count:         20
+  Leaf Cell Count:                 74
+  Buf/Inv Cell Count:               7
+  Buf Cell Count:                   3
+  Inv Cell Count:                   4
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:        34
+  Sequential Cell Count:           40
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      105.469759
+  Noncombinational Area:   257.193732
+  Buf/Inv Area:             11.690624
+  Total Buffer Area:             6.61
+  Total Inverter Area:           5.08
+  Macro/Black Box Area:      0.000000
+  Net Area:                 47.606766
+  -----------------------------------
+  Cell Area:               362.663491
+  Design Area:             410.270257
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           104
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: synopsys.stbzu.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.02
+  Logic Optimization:                  0.31
+  Mapping Optimization:                2.30
+  -----------------------------------------
+  Overall Compile Time:                7.18
+  Overall Compile Wall Clock Time:     7.50
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.74  TNS: 0.84  Number of Violating Paths: 2
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

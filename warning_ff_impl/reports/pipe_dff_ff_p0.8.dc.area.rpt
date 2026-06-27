@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : pipe_dff
+Version: R-2020.09-SP5-5
+Date   : Sat Jun 27 22:12:51 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32rvt_ff0p95vn40c (File: /home/VCSadmin/32-28nm_EDK_01312018/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff0p95vn40c.db)
+
+Number of ports:                           44
+Number of nets:                            88
+Number of cells:                           47
+Number of combinational cells:             14
+Number of sequential cells:                32
+Number of macros/black boxes:               0
+Number of buf/inv:                          4
+Number of references:                       8
+
+Combinational area:                 49.049791
+Buf/Inv area:                        7.370176
+Noncombinational area:             227.713028
+Macro/Black Box area:                0.000000
+Net Interconnect area:              38.951328
+
+Total cell area:                   276.762819
+Total area:                        315.714147
+1
