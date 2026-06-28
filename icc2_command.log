@@ -1,0 +1,15 @@
+#@ # 
+#@ # Running icc2_shell Version U-2022.12-SP5 for linux64 -- Jul 19, 2023
+#@ # Date:   Sat Jun 27 23:05:06 2026
+#@ # Run by: st102@synopsys.stbzu.edu
+#@ 
+
+list_libs
+open_lib pipe_warning_ff.dlib
+open_lib pipe_warning_ff.dlib
+ls
+list_libs
+open_lib pipe_warning_ff.dlib
+open_lib pipe_warning_ff.dlib
+ls
+exit

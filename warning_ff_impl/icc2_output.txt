@@ -1,0 +1,45 @@
+ 
+                              IC Compiler II (TM)
+
+             Version U-2022.12-SP5 for linux64 - Jul 19, 2023 -SLE
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+icc2_shell> list_libs
+Error: unknown command 'list_libs' (CMD-005)
+icc2_shell> open_lib pipe_warning_ff.dlib
+Information: Loading library file '/home/st102/VLSI_Project/warning_ff_impl/pipe_warning_ff.dlib' (FILE-007)
+Information: Loading library file '/home/ICC2_LABS/ref/CLIBs/saed32_1p9m_tech.ndm' (FILE-007)
+Information: Loading library file '/home/ICC2_LABS/ref/CLIBs/saed32_rvt.ndm' (FILE-007)
+{pipe_warning_ff.dlib}
+icc2_shell> open_block pipe_warning.design
+Information: User units loaded from library 'saed32_rvt|saed32_rvt_pg' (LNK-040)
+Opening block 'pipe_warning_ff.dlib:pipe_warning.design' in edit mode
+{pipe_warning_ff.dlib:pipe_warning.design}
+icc2_shell> start_gui
+icc2_shell> link_block
+Using libraries: pipe_warning_ff.dlib saed32_1p9m_tech saed32_rvt
+Visiting block pipe_warning_ff.dlib:pipe_warning.design
+Design 'pipe_warning' was successfully linked.
+1
+icc2_shell> start_gui
+icc2_shell> 
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+Information: Timer using 1 threads
+Warning: Corner default:  0 process number, 2 process label, 0 voltage, and 0 temperature mismatches. (PVT-030)
+Warning: 100 cells affected for early, 100 for late. (PVT-031)
+Warning: 17 port driving_cells affected for early, 17 for late. (PVT-034)
